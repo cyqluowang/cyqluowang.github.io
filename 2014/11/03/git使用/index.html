@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>hexo命令 | 无醉</title>
+    <title>git使用 | 无醉</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="陈晨">
     
-    <meta name="description" itemprop="description" content="hexo命令使用">
+    <meta name="description" content="git push -u origin master:coding
+git初步
+git init  //初始化空的 git 仓库touch README.mdgit add README.md //这两行添加简单的 README.md 文件git commit -m “first commit” //">
     
     
     
@@ -68,15 +70,15 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/11/02/hello-world/" title="hexo命令" itemprop="url">hexo命令</a>
+      <a href="/2014/11/03/git使用/" title="git使用" itemprop="url">git使用</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://www.inmylive.me" title="陈晨">陈晨</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-11-02T09:39:19.000Z" itemprop="datePublished">11月 2 2014</time>
-    更新日期:<time datetime="2014-11-03T10:01:30.000Z" itemprop="dateModified">11月 3 2014</time>
+    <time datetime="2014-11-03T11:50:27.000Z" itemprop="datePublished">11月 3 2014</time>
+    更新日期:<time datetime="2014-11-04T01:06:16.000Z" itemprop="dateModified">11月 4 2014</time>
     
   </p>
 </header>
@@ -85,27 +87,44 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#git初步"><span class="toc-number">1.</span> <span class="toc-text">git初步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1_查看远程分支"><span class="toc-number">1.1.</span> <span class="toc-text">1 查看远程分支</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2_查看本地分支"><span class="toc-number">1.2.</span> <span class="toc-text">2 查看本地分支</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3_创建分支"><span class="toc-number">1.3.</span> <span class="toc-text">3 创建分支</span></a></li></ol></li></ol>
 		</div>
 		
-		<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+		<p>git push -u origin master:coding</p>
+<h2 id="git初步">git初步</h2>
+<p>git init  //初始化空的 git 仓库<br>touch README.md<br>git add README.md //这两行添加简单的 README.md 文件<br>git commit -m “first commit” //提交时附加的信息<br>git remote add origin <a href="https://coding.net/codingTutorial/gitDemo.git" target="_blank" rel="external">https://coding.net/codingTutorial/gitDemo.git</a>  </p>
+<blockquote>
+<p> <strong>添加一个名为 origin 的远端（ url 为 git 地址）</strong></p>
+</blockquote>
+<p>如果在当前分支下<br>git push -u origin master //将该目录下的文件推送到远端（origin）上的 “master” 分支<br>如果不是当前分支<br>git push -u origin master:master   //(本地分支：远端)，如果没有远端分支会创建，</p>
+<hr>
+<p>如果你是第一次想把github上面的项目克隆到本地或者要克隆别人的项目到地。</p>
+<p>$ git clone git@github.com:defnngj/hibernate-demo.git  //在git下面切换到想存放此项目的文件目录下，运行这条命令就可以将项目克隆下来。</p>
+<hr>
+<p>假如本地已经存在了这个项目，而仓库中又有一新的更新，如何把更的合并到本地的项目中？</p>
+<p>$ git fetch origin    //取得远程更新，这里可以看做是准备要取了</p>
+<p>$ git merge origin/master  //把更新的内容合并到本地分支/master</p>
+<hr>
+<h3 id="1_查看远程分支">1 查看远程分支</h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$ git branch -a  </div><div class="line">* br-<span class="number">2.1</span><span class="number">.2</span><span class="number">.2</span>  </div><div class="line">  master  </div><div class="line">  remotes/origin/HEAD -&gt; origin/master  </div><div class="line">  remotes/origin/br-<span class="number">2.1</span><span class="number">.2</span><span class="number">.1</span>  </div><div class="line">  remotes/origin/br-<span class="number">2.1</span><span class="number">.2</span><span class="number">.2</span>  </div><div class="line">  remotes/origin/br-<span class="number">2.1</span><span class="number">.3</span>  </div><div class="line">  remotes/origin/master</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<h3 id="2_查看本地分支">2 查看本地分支</h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git branch  </div><div class="line">* br-<span class="number">2.1</span><span class="number">.2</span><span class="number">.2</span>  </div><div class="line">  master</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h3 id="3_创建分支">3 创建分支</h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git branch test</div></pre></td></tr></table></figure>
+
+
+
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git branch  </div><div class="line">* br-<span class="number">2.1</span><span class="number">.2</span><span class="number">.2</span>  </div><div class="line">  master  </div><div class="line">  test</div></pre></td></tr></table></figure>
+
+<p>线面是把分支推到远程分支 </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin test</div></pre></td></tr></table></figure>
+
+<p>哈哈哈</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -120,7 +139,7 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="http://www.inmylive.me/2014/11/02/hello-world/" data-title="hexo命令 | 无醉" data-tsina="null" class="share clearfix">
+  <div data-url="http://www.inmylive.me/2014/11/03/git使用/" data-title="git使用 | 无醉" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -130,18 +149,18 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2014/11/02/markdown/" title="Markdown语法">
+ <a href="/2014/11/03/hexo建博客/" title="hexo建博客">
   <strong>PREVIOUS:</strong><br/>
   <span>
-  Markdown语法</span>
+  hexo建博客</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/2014/10/31/Service不被杀掉/"  title="Android开发之如何保证Service不被杀掉（broadcast+system/app）">
+<a href="/2014/11/03/android启动黑屏解决/"  title="android启动黑屏解决">
  <strong>NEXT:</strong><br/> 
- <span>Android开发之如何保证Service不被杀掉（broadcast+system/app）
+ <span>android启动黑屏解决
 </span>
 </a>
 </div>
@@ -154,7 +173,7 @@
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#git初步"><span class="toc-number">1.</span> <span class="toc-text">git初步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1_查看远程分支"><span class="toc-number">1.1.</span> <span class="toc-text">1 查看远程分支</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2_查看本地分支"><span class="toc-number">1.2.</span> <span class="toc-text">2 查看本地分支</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3_创建分支"><span class="toc-number">1.3.</span> <span class="toc-text">3 创建分支</span></a></li></ol></li></ol>
   </div>
 
 <div id="asidepart">
