@@ -9,3 +9,5 @@ git clone -b coding https://github.com/cyqluowang/blog  mybolg
 hexo generate
 hexo server
 ```
+
+## git push -u origin master:coding
