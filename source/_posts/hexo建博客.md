@@ -1,6 +1,7 @@
 title: hexo建博客
 date: 2014-11-03 20:39:10
 tags: 技巧
+description: hexo建博客
 ---
 ##  安装hexo
 利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）

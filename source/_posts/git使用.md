@@ -1,8 +1,14 @@
 title: git使用
 date: 2014-11-03 19:50:27
 tags: 技巧
+description: git使用简介
 ---
 
+git branch coding
+git checkout coding
+git pull origin coding
+git add .
+git commit -m ""
 git push -u origin master:coding
 
 ## git初步
@@ -72,7 +78,10 @@ $ git branch
 ``` java
 $ git push origin test  
 ```
-哈哈哈
+
+删除本地文件同步到远程
+git add -u
+
 
 
 

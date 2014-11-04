@@ -1,6 +1,7 @@
 title: Android开发之如何保证Service不被杀掉（broadcast+system/app）
 date: 2014-10-31 16:31:45
-tags:
+tags: android
+description: service始终保持在后台运行
 ---
 ### 序言
 > 最近项目要实现这样一个效果：运行后，要有一个service始终保持在后台运行，不管用户作出什么操作，都要保证service不被kill，这可真是一个难题。参考了现今各种定制版的系统和安全厂商牛虻软件，如何能保证自己的Service不被杀死呢？
