@@ -41,7 +41,9 @@ $ git merge origin/master  //把更新的内容合并到本地分支/master
 ---
 
 ### 1 查看远程分支
-
+``` java
+$ git branch -r 
+```
 
 ``` java
 $ git branch -a  
@@ -74,7 +76,7 @@ $ git branch
   test  
 ```
 
-线面是把分支推到远程分支 
+下面是把分支推到远程分支 
 
 ``` java
 $ git push origin test  
@@ -108,6 +110,20 @@ git fetch origin gh-pages
 git merge origin/gh-pages
 
 
+
+## 删除远程分支
+如果不再需要某个远程分支了，比如搞定了某个特性并把它合并进了远程的 master 分支（或任何其他存放稳定代码的地方），可以用这个非常无厘头的语法来删除它：git push [远程名] :[分支名]。如果想在服务器上删除 serverfix 分支，运行下面的命令：
+```
+$ git push origin :serverfix
+```
+> 有种方便记忆这条命令的方法：记住我们不久前见过的 git push [远程名] [本地分支]:[远程分支] 语法，如果省略 [本地分支]，那就等于是在说“在这里提取空白然后把它变成[远程分支]”。
+
+
+## 新建远程分支
+```
+gh-pages 本地分支   coding远程分支名
+git push origin gh-pages:coding
+```
 
 
 
