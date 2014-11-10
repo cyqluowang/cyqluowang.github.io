@@ -1,7 +1,7 @@
 title: git中文换行符
 date: 2014-11-04 14:25:24
 tags: git
-description: fatal: LF would be replaced by CRLF
+description: fatal LF would be replaced by CRLF
 ---
 如果你的源文件中是换行符是LF，而autocrlf=true, 此时git add就会遇到 fatal: LF would be replaced by CRLF 的错误。有两个解决办法：
 1. 将你的源文件中的LF转为CRLF即可【推荐】
