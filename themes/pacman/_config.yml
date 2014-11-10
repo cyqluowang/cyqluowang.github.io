@@ -3,6 +3,7 @@ menu:
   Home: /
   文章: /archives
   关于: /about
+  轻拍: /app
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
