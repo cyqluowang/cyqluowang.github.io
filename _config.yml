@@ -83,6 +83,8 @@ theme: pacman
 exclude_generator:
 
 
+plugins:
+- hexo-generator-sitemap
 
 
 
