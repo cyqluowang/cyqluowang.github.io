@@ -30,5 +30,5 @@ tags:	IOS
 3. UIView (XHRealTimeBlur)用关联的方式，在UIView中加了方式和属性，使之使用方便。
 4. objc_getAssociatedObject 关联了属性，关联的主要点在这里
 
-
+<!--more-->
 

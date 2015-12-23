@@ -31,3 +31,4 @@ for /r . %%a in (.) do @if exist "%%a/.svn" rd /s /q "%%a/.svn"
 ```
 grep -r advertisingIdentifier .   
 ```（别少了最后那个点号）。
+<!--more-->

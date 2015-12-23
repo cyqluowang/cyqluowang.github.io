@@ -205,6 +205,8 @@ public void onReceive(Context context, Intent intent) {
 
 这个办法不推荐使用，因为如果你的APP如果是给用户使用的，那就不合适了，我是为了给测试的妹子来用，这个APP的目的也是很简单，打开后开启Service并且能保证一直在后台驻留，开机自启动。但是昨天发现如果她的HuaWei手机长时间关闭， 再重新打开时，我们应用的Service不会自启动，貌似广播收不到了~一怒之下，打算搞成系统应用。
 
+<!--more-->
+
 前提：
 ROOT过的手机
 1. 把代码编写好后，打包导出apk，copy到手机SD卡根目录下。

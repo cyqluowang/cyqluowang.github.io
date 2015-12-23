@@ -18,3 +18,5 @@ UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] i
 ```
 1. initWithTarget:self  后面方法（handleTapGestureRecognizer）所属的对象
 2. [self addGestureRecognizer:tapGestureRecognizer];把手势关联到哪个对象上面，目前是self，也可以是self.view.
+
+<!--more-->

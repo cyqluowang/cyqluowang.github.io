@@ -19,6 +19,9 @@ screenrecord是一个shell命令
 adb shell screenrecord /sdcard/demo.mp4 
 说明:录制手机屏幕,视频格式为mp4,存放到手机sd卡里，默认录制时间为180s
 ```
+
+<!--more-->
+
 ## 限制录制时间:
 参数: --time-limit
 ```

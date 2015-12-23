@@ -1,7 +1,6 @@
 title: launchMode
 date: 2014-11-21 10:22:09
 tags: android
-description: android的四种加载模式
 ---
 
 
@@ -26,3 +25,5 @@ description: android的四种加载模式
  效果： 因为这里是要替换栈的，不是替换栈中实例，
  所以，画面重绘，有activity替换的画面（不进oncreate  依次进入onNewIntent——>onResume）
  task： 新实例就新栈
+
+<!--more-->
