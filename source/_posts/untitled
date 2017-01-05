@@ -1,0 +1,14 @@
+
+获取sessionid
+http://oo.oobg.cn/do/do.php
+
+
+登入  密码 MD5(pass)
+a=010&oo=33%4011086&pwd=25d55ad283aa400af464c76d713c07ad&mac=&mac1=&mac2=%7C8689&winver=osx%7C1&oover=2.23&oosp=&v=2.23&n=&o=&z=1470127640100&c=010
+
+用户列表  _2 name  _5 id
+http://oo.oobg.cn/do/do.php?ta=010&oo=33%4011086&pwd=25d55ad283aa400af464c76d713c07ad&mac=&mac1=&mac2=%7C8689&winver=osx%7C1&oover=2.23&oosp=&v=2.23&n=&o=&z=1470125711253&c=010
+
+
+我的任务   参数 bid = -1001+id
+http://oo.oobg.cn/do/do.php?c=092&start=0&limit=20&bid=-100120209&_d=1&c_status=&uid_exec=&uid_exec2=&wbty=
