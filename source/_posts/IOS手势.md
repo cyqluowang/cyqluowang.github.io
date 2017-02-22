@@ -1,6 +1,6 @@
 title: IOS手势
 date: 2015-12-15 12:06:04
-tags:	IOS
+tags: IOS
 ---
 
 

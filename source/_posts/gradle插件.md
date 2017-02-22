@@ -1,6 +1,7 @@
 title: gradle插件
 date: 2016-08-01 08:49:26
-tags: android  gradle
+tags: Android
+description: gradle插件编写
 ---
 
 ##  插件编写的3总方式

@@ -1,6 +1,6 @@
 title: Android开发之如何保证Service不被杀掉（broadcast+system/app）
 date: 2014-10-31 16:31:45
-tags: android
+tags: Android
 description: service始终保持在后台运行
 ---
 ### 序言

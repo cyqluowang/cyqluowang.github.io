@@ -1,6 +1,6 @@
 title: android启动黑屏解决
 date: 2014-11-03 17:39:19
-tags: android
+tags: Android
 description: 使用Android主题解决启动黑屏
 ---
 

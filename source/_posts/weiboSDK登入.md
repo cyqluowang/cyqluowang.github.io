@@ -1,6 +1,6 @@
 title: weiboSDK登入
 date: 2014-11-20 12:25:23
-tags: android
+tags: Android
 description: weiboSDK使用
 ---
 ## 注册应用

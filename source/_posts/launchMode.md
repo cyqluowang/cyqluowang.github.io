@@ -1,6 +1,6 @@
 title: launchMode
 date: 2014-11-21 10:22:09
-tags: android
+tags: Android
 ---
 
 
