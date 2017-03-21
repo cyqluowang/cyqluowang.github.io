@@ -72,5 +72,5 @@ sitemap:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/cyqluowang/cyqluowang.github.io.git
+  repository: git@github.com:cyqluowang/cyqluowang.github.io.git
   branch: master
