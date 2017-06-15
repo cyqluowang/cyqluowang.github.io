@@ -7,106 +7,106 @@
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/about/index.html</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <loc>http://cyqluowang.github.io/about/index_back.html</loc>
+        <lastmod>2017-06-15T09:23:01.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/about/index_back.html</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <loc>http://cyqluowang.github.io/about/index.html</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/index.html</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/index.html</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/test.html</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/app/app/css/basic.css</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <loc>http://cyqluowang.github.io/app/app/index.html</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/css/idangerous.swiper.css</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/css/basic.css</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/css/idangerous.swiper.scrollbar.css</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/basic.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.scrollbar-2.1.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.min.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/js/html5shiv.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.scrollbar-2.1.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/js/basic.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.min.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/js/jquery.transit.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/turn.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://cyqluowang.github.io/app/app/js/jquery-1.10.1.min.js</loc>
-        <lastmod>2017-03-21T11:29:11.000Z</lastmod>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/js/turn.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
