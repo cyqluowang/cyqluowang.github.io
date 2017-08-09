@@ -28,13 +28,6 @@
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/app/app/test.html</loc>
-        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>http://cyqluowang.github.io/app/app/index.html</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -42,7 +35,7 @@
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/app/app/css/idangerous.swiper.css</loc>
+        <loc>http://cyqluowang.github.io/app/app/test.html</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -56,21 +49,14 @@
     </url>
     
     <url>
+        <loc>http://cyqluowang.github.io/app/app/css/idangerous.swiper.css</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://cyqluowang.github.io/app/app/css/idangerous.swiper.scrollbar.css</loc>
-        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.scrollbar-2.1.js</loc>
-        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://cyqluowang.github.io/app/app/js/html5shiv.js</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -84,7 +70,21 @@
     </url>
     
     <url>
+        <loc>http://cyqluowang.github.io/app/app/js/html5shiv.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.min.js</loc>
+        <lastmod>2017-03-21T11:36:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://cyqluowang.github.io/app/app/js/idangerous.swiper.scrollbar-2.1.js</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
