@@ -52,6 +52,15 @@ end
 要加上两级的pod指向，不然会找不到A
 
 
+## 喜讯  podspec 可以指定本地文件：
+要是在一个git的目录下
+
+```
+  s.source           = { :git => '/Users/cq/Desktop/未命名文件夹/', :tag => s.version.to_s }
+  /Users/cq/Desktop/未命名文件夹/ 是目录的最外层
+```
+
+
 ## 注意：
 单独编译B是不行的，这个时候找不到A,运行demo没有问题
 
