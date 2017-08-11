@@ -63,14 +63,14 @@
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/app/app/js/basic.js</loc>
+        <loc>http://cyqluowang.github.io/app/app/js/html5shiv.js</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://cyqluowang.github.io/app/app/js/html5shiv.js</loc>
+        <loc>http://cyqluowang.github.io/app/app/js/basic.js</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
