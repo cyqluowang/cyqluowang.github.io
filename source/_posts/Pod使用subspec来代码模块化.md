@@ -1,4 +1,4 @@
-title: Pod使用subspec来代码模块化
+title: CocoaPods使用subspec来代码模块化
 date: 2017-8-11 21:12:12
 tags: CocoaPods
 toc: true
