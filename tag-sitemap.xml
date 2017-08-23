@@ -9,14 +9,14 @@
     </url>
 
     <url>
-        <loc>http://cyqluowang.github.io/tags/spring/</loc>
+        <loc>http://cyqluowang.github.io/tags/Android/</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://cyqluowang.github.io/tags/Android/</loc>
+        <loc>http://cyqluowang.github.io/tags/spring/</loc>
         <lastmod>2017-03-21T11:36:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -65,15 +65,22 @@
     </url>
 
     <url>
-        <loc>http://cyqluowang.github.io/tags/CocoaPods/</loc>
-        <lastmod>2017-08-11T06:14:31.000Z</lastmod>
+        <loc>http://cyqluowang.github.io/tags/Carthage/</loc>
+        <lastmod>2017-08-22T02:52:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://cyqluowang.github.io/tags/Carthage/</loc>
-        <lastmod>2017-08-22T02:52:54.000Z</lastmod>
+        <loc>http://cyqluowang.github.io/tags/CocoaPods/</loc>
+        <lastmod>2017-08-22T02:56:13.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://cyqluowang.github.io/tags/iOS/</loc>
+        <lastmod>2017-08-23T10:03:29.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
